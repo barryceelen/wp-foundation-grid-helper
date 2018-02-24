@@ -60,7 +60,7 @@
 (function ($) {
 	'use strict';
 	$(function () {
-		$('#wp-admin-bar-foundation-grid-helper').on( 'click', function( e ) {
+		$('#wp-admin-bar-foundation-grid-helper').on( 'click.foundationGridHelper', function( e ) {
 			e.preventDefault();
 			var $g = $( '#foundation-grid-helper' );
 			if ( $g.length  ) {
