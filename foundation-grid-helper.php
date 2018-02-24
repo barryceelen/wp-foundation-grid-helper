@@ -51,7 +51,7 @@ function foundation_grid_helper_admin_bar_toggle( WP_Admin_Bar $wp_admin_bar ) {
 	$wp_admin_bar->add_menu(
 		array(
 			'id'        => 'foundation-grid-helper',
-			'title'     => '<span class="ab-icon"></span>',
+			'title'     => '<span class="ab-icon" title="' . esc_html__( 'Toggle Grid', 'foundation-grid-helper' ) . '"></span>',
 			'href'      => false,
 			'position'  => 0,
 			'class'     => 'hover',
