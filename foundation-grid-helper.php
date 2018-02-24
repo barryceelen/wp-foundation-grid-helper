@@ -56,8 +56,6 @@ function foundation_grid_helper_admin_bar_toggle( WP_Admin_Bar $wp_admin_bar ) {
 			'position'  => 0,
 			'class'     => 'hover',
 			'meta'      => array(
-				'title'   => esc_html( 'Toggle Grid', 'foundation-grid-helper' ),
-				'onclick' => "jQuery(window).trigger('toggle.foundationGridHelper')",
 				'html'    => $html,
 			),
 		)
