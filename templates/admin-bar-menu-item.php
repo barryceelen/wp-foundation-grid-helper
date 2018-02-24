@@ -15,7 +15,7 @@
 #wpadminbar #wp-admin-bar-foundation-grid-helper .ab-icon {
 	cursor: pointer;
 	transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
+	-ms-transform:  rotate(90deg);
 	-webkit-transform: rotate(90deg);
 }
 #wpadminbar #wp-admin-bar-foundation-grid-helper .ab-item {
